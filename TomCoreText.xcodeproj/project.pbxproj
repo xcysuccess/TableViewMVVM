@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A075DA51B54AB180091A905 /* QQDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A075DA41B54AB180091A905 /* QQDataSource.m */; };
+		9A2841DF1B53A5C0008EC6E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2841DE1B53A5C0008EC6E5 /* main.m */; };
+		9A2841E21B53A5C0008EC6E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2841E11B53A5C0008EC6E5 /* AppDelegate.m */; };
+		9A2841E81B53A5C0008EC6E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2841E61B53A5C0008EC6E5 /* Main.storyboard */; };
+		9A2841EA1B53A5C0008EC6E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A2841E91B53A5C0008EC6E5 /* Assets.xcassets */; };
+		9A2842031B53A6F9008EC6E5 /* QQTextDrawH.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2842021B53A6F9008EC6E5 /* QQTextDrawH.m */; };
+		9A2842061B53A70F008EC6E5 /* QQTextDrawV.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2842051B53A70F008EC6E5 /* QQTextDrawV.m */; };
+		9A28420C1B53A737008EC6E5 /* QQTextDrawArt.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A28420B1B53A737008EC6E5 /* QQTextDrawArt.m */; };
+		9A28420F1B53A753008EC6E5 /* QQTextDrawFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A28420E1B53A753008EC6E5 /* QQTextDrawFrame.m */; };
+		9A2842131B53A786008EC6E5 /* QQTextDrawF.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2842121B53A786008EC6E5 /* QQTextDrawF.m */; };
+		9A28421E1B53A9B3008EC6E5 /* QQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A28421D1B53A9B3008EC6E5 /* QQViewController.m */; };
+		9A2842241B53A9FB008EC6E5 /* QQModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2842231B53A9FB008EC6E5 /* QQModel.m */; };
+		9A2842271B53B1EB008EC6E5 /* QQTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2842261B53B1EB008EC6E5 /* QQTableView.m */; };
+		9A28422D1B53B9BF008EC6E5 /* QQTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A28422C1B53B9BF008EC6E5 /* QQTableCell.m */; };
+		9A56C0081B5653D1008296C2 /* QQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A56C0071B5653D1008296C2 /* QQBaseViewController.m */; };
+		9AC60D801B608F39005ED11F /* QQViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC60D7F1B608F39005ED11F /* QQViewModel.m */; };
+		9AED99FD1B60813B005C010C /* QQControlHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AED99FC1B60813B005C010C /* QQControlHandler.m */; };
+		9AED9A001B608163005C010C /* QQPageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AED99FF1B608163005C010C /* QQPageHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A075DA31B54AB180091A905 /* QQDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQDataSource.h; sourceTree = "<group>"; };
+		9A075DA41B54AB180091A905 /* QQDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQDataSource.m; sourceTree = "<group>"; };
+		9A2841DA1B53A5C0008EC6E5 /* TomCoreText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomCoreText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A2841DE1B53A5C0008EC6E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A2841E01B53A5C0008EC6E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A2841E11B53A5C0008EC6E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A2841E71B53A5C0008EC6E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A2841E91B53A5C0008EC6E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A2841EE1B53A5C0008EC6E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A2842011B53A6F9008EC6E5 /* QQTextDrawH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQTextDrawH.h; sourceTree = "<group>"; };
+		9A2842021B53A6F9008EC6E5 /* QQTextDrawH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQTextDrawH.m; sourceTree = "<group>"; };
+		9A2842041B53A70F008EC6E5 /* QQTextDrawV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "\U0011QQTextDrawV.h"; sourceTree = "<group>"; };
+		9A2842051B53A70F008EC6E5 /* QQTextDrawV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "\U0011QQTextDrawV.m"; sourceTree = "<group>"; };
+		9A28420A1B53A737008EC6E5 /* QQTextDrawArt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "\U0011QQTextDrawArt.h"; sourceTree = "<group>"; };
+		9A28420B1B53A737008EC6E5 /* QQTextDrawArt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "\U0011QQTextDrawArt.m"; sourceTree = "<group>"; };
+		9A28420D1B53A753008EC6E5 /* QQTextDrawFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQTextDrawFrame.h; sourceTree = "<group>"; };
+		9A28420E1B53A753008EC6E5 /* QQTextDrawFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQTextDrawFrame.m; sourceTree = "<group>"; };
+		9A2842111B53A786008EC6E5 /* QQTextDrawF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQTextDrawF.h; sourceTree = "<group>"; };
+		9A2842121B53A786008EC6E5 /* QQTextDrawF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQTextDrawF.m; sourceTree = "<group>"; };
+		9A28421C1B53A9B3008EC6E5 /* QQViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQViewController.h; sourceTree = "<group>"; };
+		9A28421D1B53A9B3008EC6E5 /* QQViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQViewController.m; sourceTree = "<group>"; };
+		9A2842221B53A9FB008EC6E5 /* QQModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQModel.h; sourceTree = "<group>"; };
+		9A2842231B53A9FB008EC6E5 /* QQModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQModel.m; sourceTree = "<group>"; };
+		9A2842251B53B1EB008EC6E5 /* QQTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQTableView.h; sourceTree = "<group>"; };
+		9A2842261B53B1EB008EC6E5 /* QQTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQTableView.m; sourceTree = "<group>"; };
+		9A28422B1B53B9BF008EC6E5 /* QQTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQTableCell.h; sourceTree = "<group>"; };
+		9A28422C1B53B9BF008EC6E5 /* QQTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQTableCell.m; sourceTree = "<group>"; };
+		9A56C0061B5653D1008296C2 /* QQBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQBaseViewController.h; sourceTree = "<group>"; };
+		9A56C0071B5653D1008296C2 /* QQBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQBaseViewController.m; sourceTree = "<group>"; };
+		9AC60D7E1B608F39005ED11F /* QQViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQViewModel.h; sourceTree = "<group>"; };
+		9AC60D7F1B608F39005ED11F /* QQViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQViewModel.m; sourceTree = "<group>"; };
+		9AED99FB1B60813B005C010C /* QQControlHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQControlHandler.h; sourceTree = "<group>"; };
+		9AED99FC1B60813B005C010C /* QQControlHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQControlHandler.m; sourceTree = "<group>"; };
+		9AED99FE1B608163005C010C /* QQPageHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQPageHandler.h; sourceTree = "<group>"; };
+		9AED99FF1B608163005C010C /* QQPageHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQPageHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A2841D71B53A5C0008EC6E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A2841D11B53A5C0008EC6E5 = {
+			isa = PBXGroup;
+			children = (
+				9A56C0051B5653C1008296C2 /* Base */,
+				9A2841F41B53A60D008EC6E5 /* UI */,
+				9A2841DC1B53A5C0008EC6E5 /* TomCoreText */,
+				9A2841DB1B53A5C0008EC6E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A2841DB1B53A5C0008EC6E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A2841DA1B53A5C0008EC6E5 /* TomCoreText.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A2841DC1B53A5C0008EC6E5 /* TomCoreText */ = {
+			isa = PBXGroup;
+			children = (
+				9A2842141B53A7E1008EC6E5 /* TableView */,
+				9A2841E01B53A5C0008EC6E5 /* AppDelegate.h */,
+				9A2841E11B53A5C0008EC6E5 /* AppDelegate.m */,
+				9A2841E61B53A5C0008EC6E5 /* Main.storyboard */,
+				9A2841E91B53A5C0008EC6E5 /* Assets.xcassets */,
+				9A2841EE1B53A5C0008EC6E5 /* Info.plist */,
+				9A2841DD1B53A5C0008EC6E5 /* Supporting Files */,
+			);
+			path = TomCoreText;
+			sourceTree = "<group>";
+		};
+		9A2841DD1B53A5C0008EC6E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A2841DE1B53A5C0008EC6E5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A2841F41B53A60D008EC6E5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9A2841F51B53A60D008EC6E5 /* Art */,
+				9A2841F61B53A60D008EC6E5 /* Frame */,
+				9A2841F71B53A60D008EC6E5 /* Glyph */,
+				9A2841F81B53A60D008EC6E5 /* TextKit */,
+			);
+			name = UI;
+			path = TomCoreText/UI;
+			sourceTree = "<group>";
+		};
+		9A2841F51B53A60D008EC6E5 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				9A28420A1B53A737008EC6E5 /* QQTextDrawArt.h */,
+				9A28420B1B53A737008EC6E5 /* QQTextDrawArt.m */,
+			);
+			path = Art;
+			sourceTree = "<group>";
+		};
+		9A2841F61B53A60D008EC6E5 /* Frame */ = {
+			isa = PBXGroup;
+			children = (
+				9A28420D1B53A753008EC6E5 /* QQTextDrawFrame.h */,
+				9A28420E1B53A753008EC6E5 /* QQTextDrawFrame.m */,
+			);
+			path = Frame;
+			sourceTree = "<group>";
+		};
+		9A2841F71B53A60D008EC6E5 /* Glyph */ = {
+			isa = PBXGroup;
+			children = (
+				9A2842101B53A777008EC6E5 /* Font */,
+				9A2841F91B53A63F008EC6E5 /* Horizontal */,
+				9A2841FA1B53A63F008EC6E5 /* Vertical */,
+			);
+			path = Glyph;
+			sourceTree = "<group>";
+		};
+		9A2841F81B53A60D008EC6E5 /* TextKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TextKit;
+			sourceTree = "<group>";
+		};
+		9A2841F91B53A63F008EC6E5 /* Horizontal */ = {
+			isa = PBXGroup;
+			children = (
+				9A2842011B53A6F9008EC6E5 /* QQTextDrawH.h */,
+				9A2842021B53A6F9008EC6E5 /* QQTextDrawH.m */,
+			);
+			path = Horizontal;
+			sourceTree = "<group>";
+		};
+		9A2841FA1B53A63F008EC6E5 /* Vertical */ = {
+			isa = PBXGroup;
+			children = (
+				9A2842041B53A70F008EC6E5 /* QQTextDrawV.h */,
+				9A2842051B53A70F008EC6E5 /* QQTextDrawV.m */,
+			);
+			path = Vertical;
+			sourceTree = "<group>";
+		};
+		9A2842101B53A777008EC6E5 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				9A2842111B53A786008EC6E5 /* QQTextDrawF.h */,
+				9A2842121B53A786008EC6E5 /* QQTextDrawF.m */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		9A2842141B53A7E1008EC6E5 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				9AED99FA1B60813B005C010C /* Event */,
+				9A2842151B53A971008EC6E5 /* Model */,
+				9AC60D7D1B608A65005ED11F /* ViewModel */,
+				9A2842161B53A971008EC6E5 /* View */,
+				9A2842171B53A971008EC6E5 /* ViewController */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		9A2842151B53A971008EC6E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A2842221B53A9FB008EC6E5 /* QQModel.h */,
+				9A2842231B53A9FB008EC6E5 /* QQModel.m */,
+				9A075DA31B54AB180091A905 /* QQDataSource.h */,
+				9A075DA41B54AB180091A905 /* QQDataSource.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A2842161B53A971008EC6E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A2842251B53B1EB008EC6E5 /* QQTableView.h */,
+				9A2842261B53B1EB008EC6E5 /* QQTableView.m */,
+				9A28422B1B53B9BF008EC6E5 /* QQTableCell.h */,
+				9A28422C1B53B9BF008EC6E5 /* QQTableCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A2842171B53A971008EC6E5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9A28421C1B53A9B3008EC6E5 /* QQViewController.h */,
+				9A28421D1B53A9B3008EC6E5 /* QQViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9A56C0051B5653C1008296C2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9A56C0061B5653D1008296C2 /* QQBaseViewController.h */,
+				9A56C0071B5653D1008296C2 /* QQBaseViewController.m */,
+			);
+			name = Base;
+			path = TomCoreText/Base;
+			sourceTree = "<group>";
+		};
+		9AC60D7D1B608A65005ED11F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9AC60D7E1B608F39005ED11F /* QQViewModel.h */,
+				9AC60D7F1B608F39005ED11F /* QQViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9AED99FA1B60813B005C010C /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				9AED99FB1B60813B005C010C /* QQControlHandler.h */,
+				9AED99FC1B60813B005C010C /* QQControlHandler.m */,
+				9AED99FE1B608163005C010C /* QQPageHandler.h */,
+				9AED99FF1B608163005C010C /* QQPageHandler.m */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A2841D91B53A5C0008EC6E5 /* TomCoreText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A2841F11B53A5C0008EC6E5 /* Build configuration list for PBXNativeTarget "TomCoreText" */;
+			buildPhases = (
+				9A2841D61B53A5C0008EC6E5 /* Sources */,
+				9A2841D71B53A5C0008EC6E5 /* Frameworks */,
+				9A2841D81B53A5C0008EC6E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TomCoreText;
+			productName = TomCoreText;
+			productReference = 9A2841DA1B53A5C0008EC6E5 /* TomCoreText.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A2841D21B53A5C0008EC6E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = " tomxiang";
+				TargetAttributes = {
+					9A2841D91B53A5C0008EC6E5 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 9A2841D51B53A5C0008EC6E5 /* Build configuration list for PBXProject "TomCoreText" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A2841D11B53A5C0008EC6E5;
+			productRefGroup = 9A2841DB1B53A5C0008EC6E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A2841D91B53A5C0008EC6E5 /* TomCoreText */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A2841D81B53A5C0008EC6E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A2841EA1B53A5C0008EC6E5 /* Assets.xcassets in Resources */,
+				9A2841E81B53A5C0008EC6E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A2841D61B53A5C0008EC6E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A2841E21B53A5C0008EC6E5 /* AppDelegate.m in Sources */,
+				9A28421E1B53A9B3008EC6E5 /* QQViewController.m in Sources */,
+				9A28420C1B53A737008EC6E5 /* QQTextDrawArt.m in Sources */,
+				9A2842131B53A786008EC6E5 /* QQTextDrawF.m in Sources */,
+				9A28420F1B53A753008EC6E5 /* QQTextDrawFrame.m in Sources */,
+				9A2842031B53A6F9008EC6E5 /* QQTextDrawH.m in Sources */,
+				9AC60D801B608F39005ED11F /* QQViewModel.m in Sources */,
+				9A28422D1B53B9BF008EC6E5 /* QQTableCell.m in Sources */,
+				9AED9A001B608163005C010C /* QQPageHandler.m in Sources */,
+				9A075DA51B54AB180091A905 /* QQDataSource.m in Sources */,
+				9A2842241B53A9FB008EC6E5 /* QQModel.m in Sources */,
+				9A2842271B53B1EB008EC6E5 /* QQTableView.m in Sources */,
+				9A2841DF1B53A5C0008EC6E5 /* main.m in Sources */,
+				9A56C0081B5653D1008296C2 /* QQBaseViewController.m in Sources */,
+				9A2842061B53A70F008EC6E5 /* QQTextDrawV.m in Sources */,
+				9AED99FD1B60813B005C010C /* QQControlHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A2841E61B53A5C0008EC6E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A2841E71B53A5C0008EC6E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A2841EF1B53A5C0008EC6E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A2841F01B53A5C0008EC6E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A2841F21B53A5C0008EC6E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TomCoreText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.mqq.TomCoreText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A2841F31B53A5C0008EC6E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TomCoreText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.mqq.TomCoreText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A2841D51B53A5C0008EC6E5 /* Build configuration list for PBXProject "TomCoreText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A2841EF1B53A5C0008EC6E5 /* Debug */,
+				9A2841F01B53A5C0008EC6E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A2841F11B53A5C0008EC6E5 /* Build configuration list for PBXNativeTarget "TomCoreText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A2841F21B53A5C0008EC6E5 /* Debug */,
+				9A2841F31B53A5C0008EC6E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A2841D21B53A5C0008EC6E5 /* Project object */;
+}
